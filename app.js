@@ -26,7 +26,7 @@ app.get('/home',requireValidation,(req,res)=> {
 });
 app.post('/login',(req,res)=> {
     const usernameDB = "Nandhu" ;
-    const passwordDB = "12"
+    const passwordDB = "1234"
     const { username , password } = req.body 
     if(usernameDB === username && passwordDB === password ){
         req.session.username = username ;
