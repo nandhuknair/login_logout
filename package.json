@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
+  "scripts": { 
     "dev": "nodemon script"
   },
   "author": "Nandhu",
@@ -14,6 +14,6 @@
     "express-session": "^1.17.3"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2"
+    "nodemon": "^3.0.2"   
   }
 }
